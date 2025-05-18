@@ -1,0 +1,101 @@
+/* Reset default margin, padding and set box-sizing to border-box for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Logo styling with padding and inline display */
+.Logo {
+    padding: 20px;
+    display: inline-block;
+}
+
+/* Navigation list styling: inline display and margin for positioning */
+.uul {
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 30vw;
+    margin-bottom: 20px;
+}
+
+/* Navigation list items displayed inline with margin */
+li {
+    display: inline;
+    margin: 10px;
+}
+
+/* Username button styling: padding, background, color, border-radius and border */
+.username {
+    padding: 20px;
+    background-color: rgb(210, 231, 246);
+    color: rgb(17, 17, 172);
+    border-radius: 50px;
+    font-weight: 600;
+    margin-left: 30%;
+    border: 2px solid blue;
+}
+
+/* Left section styling - takes 60% width and floats left */
+.left {
+    width: 60%;
+    float: left;
+}
+
+/* Right section styling - takes 40% width, floats right, with padding and margin */
+.right {
+    width: 40%;
+    float: right;
+    padding: 10px;
+    margin-top: 20px;
+    /* margin-right: 20%; */
+}
+
+/* Image styling with height and left margin */
+.img {
+    height: 70vh;
+    margin-left: 0%;
+}
+
+/* Heading (h1) styling with padding, margin and font-family */
+.h1 {
+    padding: 20px;
+    margin-top: 150px;
+    margin-left: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Paragraph styling with font-family and margin */
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 30%;
+}
+
+/* Button styling with background, color, padding, border-radius, font styles and margin */
+.button {
+    background-color: rgb(210, 231, 246);
+    color: rgb(17, 17, 172);
+    padding: 20px 30px;
+    border-radius: 50px;
+    border: 2px solid blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+    margin: 10px 35%;
+}
+
+/* Span inside h1 colored blue */
+span {
+    color: blue;
+}
+
+/* Button hover effect (commented out properties) */
+/* Uncomment to enable hover effects */
+/*
+button:hover {
+    color: white;
+    font-size: larger;
+    padding: 25px;
+}
+*/
